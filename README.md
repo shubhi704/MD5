@@ -16,11 +16,11 @@ According to the standard MD5 algorithm we insert the arbitary lenght input and 
 
 For Example: 
 
-Message String - "Testing MD5"
+Message String - "Message Padding"
 
 Note - Double Quotation is not a part of message signal. And it is not taking null character.
 
-Message String (in Hex) - 54_65_73_74_69_6e_67_20_4d_44_35
+Message String (in Hex) - 4d_65_73_73_61_67_65_20_50_61_64_64_69_6e_67
 
 
 
