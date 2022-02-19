@@ -49,10 +49,11 @@ But one point to be noted here is, we represented the append length using little
 **Step 3: Initializing 4 Registers**
 
 In this step, we initialize 32 bits 4 registers whose initial values are:
-A = 32'h67452301 
-B = 32'hefcdab89 
-C = 32'h98badcfe 
-D = 32'h10325476
+
+    A = 32'h67452301 
+    B = 32'hefcdab89 
+    C = 32'h98badcfe 
+    D = 32'h10325476
 
 
 
