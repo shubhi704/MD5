@@ -43,10 +43,20 @@ Please note -
 
 **Step 2: Appending the Length**
 
-In this step, we append the message length using 64 bits at the end of the padded message. Let's suppose your msg length is 300 bits, so you need to append "12C" by representing it using 64 bits.
+In this step, we append the message length using 64 bits at the end of the padded message. As your msg length is 30 bits, so you need to append "1E" by representing it using 64 bits.
 But one point to be noted here is, we represented the append length using little endian form.
    
-    00 00 00 00 00 00 01 2C -->   12 C0 00 00 00 00 00 00
+
+00 00 00 00 00 00 00 1E -->   1E 00 00 00 00 00 00 00
+
+Now your message signal becomes - 
+    
+    4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
+    80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                        
+    00 00 00 00 00 00 00 00 00 00 00 1E 00 00 00
+    00 00 00 00
+
 
 
 
@@ -64,7 +74,7 @@ In this step we also need to chunk padded Msg signal into 16 32-bit words and ea
     For Example: 
       
       Zeroth padded Message signal is M[0] = {pm[487:480],pm[495:488],pm[503:496],pm[511:504]}
-      Likewise, M[16] = {pm[7:0],pm[15:8],pm[23:16],pm[31:24]} ;
+      or, **M[0] = 73 73 65 4d** instead of 4d 65 73 73.
       Here, pm = padded message signal
        
 
