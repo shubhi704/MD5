@@ -41,8 +41,18 @@ Please note -
 
 **Step 2: Appending the Length**
 
-In this step, we append the lenght of the message at the end of the padded msg by represented it using 64 bits.
+In this step, we append the message length using 64 bits at the end of the padded message. Let's suppose your msg length is 300 bits, so you need to append "12C" by representing it using 64 bits.
+But one point to be noted here is, we represented the append length using little endian form.
+   
+    00 00 00 00 00 00 01 2C -->   12 C0 00 00 00 00 00 00
 
+**Step 3: Initializing 4 Registers**
+
+In this step, we initialize 32 bits 4 registers whose initial values are:
+A = 32'h67452301 
+B = 32'hefcdab89 
+C = 32'h98badcfe 
+D = 32'h10325476
 
 
 
