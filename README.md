@@ -36,7 +36,7 @@ Please note -
            
              1. If in case your message width is 448 bits then you simply addd "1" bit at the end of the message signal to convert it into padded message.
 
-             2. Double Quotation is not a part of message signal. And it is not taking null character.
+             2. Double Quotation is not a part of message signal. And it is not taking null character into account.
 
 
 **Step 2: Appending the Length**
