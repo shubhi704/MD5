@@ -110,7 +110,7 @@ end for
 
 var char digest[16] := a0 append b0 append c0 append d0
 
-// s specifies the per-round shift amounts
+    // s specifies the per-round shift amounts
 
     s[ 0..15] := { 7, 12, 17, 22,  7, 12, 17, 22,  7, 12, 17, 22,  7, 12, 17, 22 }
     s [16..31] := { 5,  9, 14, 20,  5,  9, 14, 20,  5,  9, 14, 20,  5,  9, 14, 20 }
@@ -140,6 +140,27 @@ var char digest[16] := a0 append b0 append c0 append d0
 
 
 # .SDC file
+    
+    ******************************************************
+    Time Information   
+    ******************************************************
+    set_time_format -unit ns -decimal_places 3
+
+    **************************************************************
+    Create Clock
+    **************************************************************
+    create_clock -period 600.000 -waveform { 0.000 300.000 } -name {clock} [get_ports {clock}] 
+
+
+    **************************************************************
+    Set Input Delay
+    **************************************************************
+    set_input_delay 2.00 -clock [get_clocks {clock}] [get_ports {MSG}]
+
+    **************************************************************
+    Set Output Delay
+    **************************************************************
+    set_output_delay 1.00 -clock [get_clocks {clock}] [get_ports {md}]
 
 # Power Result
 
