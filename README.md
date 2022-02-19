@@ -141,16 +141,21 @@ var char digest[16] := a0 append b0 append c0 append d0
 
 # .SDC file
     
+ .sdc stands for Synopsys Design Constraints which is used to define the design constraints. Below I have listed important commands of SDC file
+
     ******************************************************
     Time Information   
     ******************************************************
     set_time_format -unit ns -decimal_places 3
 
+ This is indicating that all the values are represented in nano-second and the digits are valid upto 3 decimal places.
+ 
     **************************************************************
     Create Clock
     **************************************************************
     create_clock -period 600.000 -waveform { 0.000 300.000 } -name {clock} [get_ports {clock}] 
 
+Using create_clock command we make the clock period 600ns which will trigger at 0ns and 300ns (or 50% duty cycle). 
 
     **************************************************************
     Set Input Delay
@@ -161,6 +166,8 @@ var char digest[16] := a0 append b0 append c0 append d0
     Set Output Delay
     **************************************************************
     set_output_delay 1.00 -clock [get_clocks {clock}] [get_ports {md}]
+    
+ Using set_inputdelay/set_output_delay we assigned the input/output delay (interconnect delay).
 
 # Power Result
 
