@@ -20,14 +20,18 @@ Message String - "Message Padding"
 
 Message (in Hex) - 4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
 
-Padded Message (in Hex) -  4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67 \n
-                           80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 \n
-                           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 \n
+Padded Message (in Hex) -  4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
+
+                           80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                           
+                           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                           
                            00 00 00 00 00 00 00 00 00 00 00
 
 
 
 Please note - 1. If in case your message width is 448 bits then you simply addd "1" bit at the end of the message signal to convert it into padded message.
+
               2. Double Quotation is not a part of message signal. And it is not taking null character.
 
 
