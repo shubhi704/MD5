@@ -5,7 +5,7 @@
 
 
 
-** The Algorithm**
+**The Algorithm**
 
 We implemented the MD5, a one way cryptographic hash function, using Verilog (Hardware Description Language). We tested our implementation through existing code for few input strings. But this implementation is not fully veriified using advance verification techniques/methology so there can be the some corner cases for which this implementation may fails. As this is the hardware implementation so we fixed the input pins as 448 bits long which we call as message, and MD5 will generate 128 bits output which we call as digest.
 For understanding the MD5 algorithm I found that relatively complete description is given in Wiki.
@@ -20,7 +20,9 @@ Message String - "Message Padding"
 
 Message (in Hex) - 4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
 
-Padded Message (in Hex) -  4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
+Padded Message (in Hex) -  
+                    
+                           4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
 
                            80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
                            
@@ -30,9 +32,11 @@ Padded Message (in Hex) -  4d 65 73 73 61 67 65 20 50 61 64 64 69 6e 67
 
 
 
-Please note - 1. If in case your message width is 448 bits then you simply addd "1" bit at the end of the message signal to convert it into padded message.
+Please note - 
+           
+             1. If in case your message width is 448 bits then you simply addd "1" bit at the end of the message signal to convert it into padded message.
 
-              2. Double Quotation is not a part of message signal. And it is not taking null character.
+             2. Double Quotation is not a part of message signal. And it is not taking null character.
 
 
 **Step 2: Appending the Length**
