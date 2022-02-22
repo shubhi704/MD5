@@ -7,13 +7,13 @@
 
 **The Algorithm**
 
-We implemented the MD5, a one way cryptographic hash function, using Verilog (Hardware Description Language). We tested our implementation through existing code for few input strings. But this implementation is not fully veriified using advance verification techniques/methology so there can be the some corner cases for which this implementation may fails. As this is the hardware implementation so we fixed the input pins as 448 bits long which we call as message, and MD5 will generate 128 bits output which we call as digest.
-For understanding the MD5 algorithm I found that relatively complete description is given in Wiki.
+We implemented the MD5, a one-way cryptographic hash function, using Verilog (Hardware Description Language). We tested our implementation through existing code for a few input strings. But this implementation is not fully verified using advanced verification techniques/methodology so there can be some corner cases for which this implementation may fail. As this is the hardware implementation so we fixed the input pins as 448 bits long which we call a message, and MD5 will generate 128 bits output which we call digest. For understanding the MD5 algorithm I found that a relatively complete description is given in Wiki.
+For understanding the MD5 algorithm I found that a relatively complete description is given in Wiki.
 
 
 **Step 1: Padding** 
 
-According to the standard MD5 algorithm we insert the arbitary length input and padded the message signal by appending bits at the end until its length is congruent to 448 mod 512. But in this implementation we have to provide the padded message in the input side. The padding is simply a single "1" bit at the end of the message followed by enough "0" bits to satisfy the length condition above (n*512 - 64, where n is a whole number).
+According to the standard MD5 algorithm, we insert the arbitrary length input and padded the message signal by appending bits at the end until its length is congruent to 448 mod 512. But in this implementation, we have to provide the padded message on the input side. The padding is simply a single "1" bit at the end of the message followed by enough "0" bits to satisfy the length condition above (n*512 - 64, where n is a whole number).
 
 **For Example:** 
 
@@ -35,16 +35,16 @@ Padded Message (in Hex) -
 
 Please note - 
            
-             1. If in case your message width is 448 bits then you simply addd "1" bit at the end of the message signal to convert it into padded message.
+             1. If in case your message width is 448 bits then you simply add the "1" bit at the end of the message signal to convert it into the padded message.
 
-             2. Double Quotation is not a part of message signal. And it is not taking null character into account.
+             2. Double Quotation is not a part of the message signal. And it is not taking the null character into account.
 
 
 
 **Step 2: Appending the Length**
 
-In this step, we append the message length using 64 bits at the end of the padded message. As your msg length is 30 bits, so you need to append "1E" by representing it using 64 bits.
-But one point to be noted here is, we represented the append length using little endian form.
+In this step, we append the message length using 64 bits at the end of the padded message. As your msg length is 30 bits, you need to append "1E" by representing it using 64 bits.
+But one point to be noted here is, we represented the appended length using the little-endian form.
    
 
 00 00 00 00 00 00 00 1E -->   1E 00 00 00 00 00 00 00
@@ -69,7 +69,7 @@ In this step, we initialize four 32-bit registers whose initial values are:
     C = 32'h98badcfe 
     D = 32'h10325476
 
-In this step we also need to chunk padded Msg signal into 16 32-bit words and each 32 bit words must be converted into little endian form.
+In this step, we also need to chunk padded Msg signal into 16 32-bit words and each 32-bit word must be converted into little-endian form.
 
     For Example: 
       
@@ -80,7 +80,7 @@ In this step we also need to chunk padded Msg signal into 16 32-bit words and ea
 
 Step 4: Iteration
 
-In MD5, there are 4 function and with each function 16 times the iterations are taken place.
+In MD5, there is 4 function and with each function 16 times the iterations are taken place.
 
     for i from 0 to 63 do
         if 0 ≤ i ≤ 15 then
@@ -139,23 +139,44 @@ var char digest[16] := a0 append b0 append c0 append d0
 # Synthesis using Intel Quartus Prime.
 
 
+Download Link - https://cdrdv2.intel.com/v1/dl/downloadStart/684220/684241?filename=Quartus-lite-21.1.0.842-windows.tar
+
+![image](https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155185888-84a1e91d-50a5-43ea-9906-6c4b073caace.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155185955-bb5f1ff3-1b1d-479d-a35d-772af3702d27.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155186083-5af3a619-b177-4f7c-b099-0082b521af5a.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155186180-2694616d-56e9-42cd-b29b-660fb6488414.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155186366-3fc2f182-ca7e-48b1-baea-c746b61d3f75.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155186522-50998d86-4480-4b42-b361-cecb77074aca.png)
+
+![image](https://user-images.githubusercontent.com/82434808/155186633-9c78b942-e52a-46c9-9c84-e40aac2ece5e.png)
+
+
 # .SDC file
     
- .sdc stands for Synopsys Design Constraints which is used to define the design constraints. Below I have listed important commands of SDC file
+ .sdc stands for Synopsys Design Constraints which is used to define the design constraints. Below I have listed important commands of the SDC file.
 
     ******************************************************
     Time Information   
     ******************************************************
     set_time_format -unit ns -decimal_places 3
 
- This is indicating that all the values are represented in nano-second and the digits are valid upto 3 decimal places.
+ This is indicating that all the values are represented in nano-second and the digits are valid up to 3 decimal places.
  
     **************************************************************
     Create Clock
     **************************************************************
     create_clock -period 600.000 -waveform { 0.000 300.000 } -name {clock} [get_ports {clock}] 
 
-Using create_clock command we make the clock period 600ns which will trigger at 0ns and 300ns (or 50% duty cycle). 
+Using the create_clock command we make the clock period 600ns which will trigger at 0ns and 300ns (or 50% duty cycle). 
 
     **************************************************************
     Set Input Delay
