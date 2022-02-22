@@ -192,6 +192,14 @@ Using the create_clock command we make the clock period 600ns which will trigger
 
 # Power Result
 
+![image](https://user-images.githubusercontent.com/82434808/155191254-08931c1b-534a-4a59-b901-bb4a45f80aef.png)
+![image](https://user-images.githubusercontent.com/82434808/155191389-687a0d8d-a428-45f8-8388-0a72d4c66a6f.png)
+![image](https://user-images.githubusercontent.com/82434808/155191498-ef351dc5-4802-4575-bf62-7962fe378137.png)
+![image](https://user-images.githubusercontent.com/82434808/155191601-960548c1-d97c-47b6-9dc7-5b5d0e10c218.png)
+![image](https://user-images.githubusercontent.com/82434808/155191709-9337e193-b78d-49bd-aa49-fa022ed40e50.png)
+
+
+
 # Timing Report
 
 
