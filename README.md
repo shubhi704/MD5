@@ -141,7 +141,7 @@ var char digest[16] := a0 append b0 append c0 append d0
 
 Download Link - https://cdrdv2.intel.com/v1/dl/downloadStart/684220/684241?filename=Quartus-lite-21.1.0.842-windows.tar
 
-<img src ="https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png" width="455" height="200">
+<img src ="https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png" width="500" height="300">
 
 ![image](https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png)
 
