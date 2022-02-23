@@ -106,9 +106,9 @@ In MD5, there is 4 function and with each function 16 times the iterations are t
     b0 := b0 + B
     c0 := c0 + C
     d0 := d0 + D
-end for
+    end for
 
-var char digest[16] := a0 append b0 append c0 append d0
+    digest = a0 append b0 append c0 append d0
 
     // s specifies the per-round shift amounts
 
@@ -117,6 +117,8 @@ var char digest[16] := a0 append b0 append c0 append d0
     s[32..47] := { 4, 11, 16, 23,  4, 11, 16, 23,  4, 11, 16, 23,  4, 11, 16, 23 }
     s[48..63] := { 6, 10, 15, 21,  6, 10, 15, 21,  6, 10, 15, 21,  6, 10, 15, 21 }
 
+   // K specifies the constant values
+      
     K[ 0.. 3] := { 0xd76aa478, 0xe8c7b756, 0x242070db, 0xc1bdceee }
     K[ 4.. 7] := { 0xf57c0faf, 0x4787c62a, 0xa8304613, 0xfd469501 }
     K[ 8..11] := { 0x698098d8, 0x8b44f7af, 0xffff5bb1, 0x895cd7be }
@@ -138,20 +140,40 @@ var char digest[16] := a0 append b0 append c0 append d0
 
 # Synthesis using Intel Quartus Prime.
 
+Step 1: To synthesis your design you first need to have Intel Quartus Prime software in your system. Please click the below download link for it.
 
 Download Link - https://cdrdv2.intel.com/v1/dl/downloadStart/684220/684241?filename=Quartus-lite-21.1.0.842-windows.tar
 
+Step 2: After installing Quartus prime, open the tool by double clicking the "Quartus Prime" icon. You should now see the image below. Select FILE --> New Project Wizard
+
+ This will brings up the new project wizard which has 5 panes.
 <img src ="https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png" width="600" height="450">
+
+Step 2.2: Fill in new project information.
 
 <img src ="https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png" width="600" height="450">
 
+Step 2.3: Click NEXT. We'll add source file later.
+
 <img src ="https://user-images.githubusercontent.com/82434808/155185888-84a1e91d-50a5-43ea-9906-6c4b073caace.png" width="600" height="450">
 
+Step 2.4: Device Settings. For this implementation we used 
+          Device Family: Cyclone
+          Device Name: 5CGXFC9E6F35I7.
 <img src ="https://user-images.githubusercontent.com/82434808/155185955-bb5f1ff3-1b1d-479d-a35d-772af3702d27.png" width="600" height="450">
+ You could also just start typing the full part number in the Name filter box until you find it.
+ Click NEXT.
 
 <img src ="https://user-images.githubusercontent.com/82434808/155186083-5af3a619-b177-4f7c-b099-0082b521af5a.png" width="600" height="450">
 
+EDA tool setting doesn't matter for this lab so we can skip it.
+
+Step 2.5: Summary
+          Nothing to select - it should look like this. 
 <img src ="https://user-images.githubusercontent.com/82434808/155186180-2694616d-56e9-42cd-b29b-660fb6488414.png" width="600" height="450">
+
+Click FINISH
+ 
 <img src ="https://user-images.githubusercontent.com/82434808/155186366-3fc2f182-ca7e-48b1-baea-c746b61d3f75.png" width="600" height="450">
 
 <img src ="https://user-images.githubusercontent.com/82434808/155186522-50998d86-4480-4b42-b361-cecb77074aca.png" width="700" height="400">
