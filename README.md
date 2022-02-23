@@ -154,20 +154,25 @@ Step 2.2: Fill in new project information.
 <img src ="https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png" width="600" height="450">
 
 Step 2.3: Click NEXT. We'll add source file later.
+
 <img src ="https://user-images.githubusercontent.com/82434808/155185955-bb5f1ff3-1b1d-479d-a35d-772af3702d27.png" width="600" height="450">
 
 Step 2.4: Device Settings. For this implementation we used 
           Device Family: Cyclone
           Device Name: 5CGXFC9E6F35I7.
+          
 <img src ="https://user-images.githubusercontent.com/82434808/155186083-5af3a619-b177-4f7c-b099-0082b521af5a.png" width="600" height="450">
+
  You could also just start typing the full part number in the Name filter box until you find it.
  Click NEXT. EDA tool setting doesn't matter for this lab so we can skip it.
 
 Step 2.5: Summary
           Nothing to select - it should look like this. 
+          
 <img src ="https://user-images.githubusercontent.com/82434808/155186180-2694616d-56e9-42cd-b29b-660fb6488414.png" width="600" height="450">
 
 Click FINISH
+ 
  
 <img src ="https://user-images.githubusercontent.com/82434808/155186366-3fc2f182-ca7e-48b1-baea-c746b61d3f75.png" width="600" height="450">
 
