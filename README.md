@@ -141,23 +141,22 @@ var char digest[16] := a0 append b0 append c0 append d0
 
 Download Link - https://cdrdv2.intel.com/v1/dl/downloadStart/684220/684241?filename=Quartus-lite-21.1.0.842-windows.tar
 
-<img src ="https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png" width="700" height="500">
+<img src ="https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png" width="600" height="500">
+<img src ="https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155185888-84a1e91d-50a5-43ea-9906-6c4b073caace.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/82434808/155185888-84a1e91d-50a5-43ea-9906-6c4b073caace.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155185955-bb5f1ff3-1b1d-479d-a35d-772af3702d27.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/82434808/155185955-bb5f1ff3-1b1d-479d-a35d-772af3702d27.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155186083-5af3a619-b177-4f7c-b099-0082b521af5a.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/82434808/155186083-5af3a619-b177-4f7c-b099-0082b521af5a.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155186180-2694616d-56e9-42cd-b29b-660fb6488414.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/82434808/155186180-2694616d-56e9-42cd-b29b-660fb6488414.png" width="600" height="450">
+<img src ="https://user-images.githubusercontent.com/82434808/155186366-3fc2f182-ca7e-48b1-baea-c746b61d3f75.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155186366-3fc2f182-ca7e-48b1-baea-c746b61d3f75.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/82434808/155186522-50998d86-4480-4b42-b361-cecb77074aca.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155186522-50998d86-4480-4b42-b361-cecb77074aca.png" width="600" height="400">
-
-<img src ="https://user-images.githubusercontent.com/82434808/155186633-9c78b942-e52a-46c9-9c84-e40aac2ece5e.png" width="600" height="400">
+<img src ="https://user-images.githubusercontent.com/82434808/155186633-9c78b942-e52a-46c9-9c84-e40aac2ece5e.png" width="600" height="450">
 
 
 # .SDC file
