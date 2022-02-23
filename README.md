@@ -140,24 +140,25 @@ In MD5, there is 4 function and with each function 16 times the iterations are t
 
 # Synthesis using Intel Quartus Prime.
 
-Step 1: To synthesis your design you first need to have Intel Quartus Prime software in your system. Please click the below download link for it.
+**Step 1:** To synthesis your design you first need to have Intel Quartus Prime software in your system. Please click the below download link for it.
 
 Download Link - https://cdrdv2.intel.com/v1/dl/downloadStart/684220/684241?filename=Quartus-lite-21.1.0.842-windows.tar
 
-Step 2: After installing Quartus prime, open the tool by double clicking the "Quartus Prime" icon. You should now see the image below. Select FILE --> New Project Wizard
+**Step 2:** After installing Quartus prime, open the tool by double clicking the "Quartus Prime" icon. You should now see the image below. Select FILE --> New Project Wizard
 
  This will brings up the new project wizard which has 5 panes.
 <img src ="https://user-images.githubusercontent.com/82434808/155185325-6e6e378b-ffa7-450d-9f03-86dc428f5f76.png" width="600" height="450">
 
-Step 2.2: Fill in new project information.
+**Step 2.2:** Fill in new project information.
 
 <img src ="https://user-images.githubusercontent.com/82434808/155185627-59047428-5e45-4ad3-a189-edfb3b3a29a3.png" width="600" height="450">
 
-Step 2.3: Click NEXT. We'll add source file later.
+**Step 2.3:** Click NEXT. We'll add source file later.
 
 <img src ="https://user-images.githubusercontent.com/82434808/155185955-bb5f1ff3-1b1d-479d-a35d-772af3702d27.png" width="600" height="450">
 
-Step 2.4: Device Settings. For this implementation we used 
+**Step 2.4:** Device Settings. For this implementation we used 
+
           Device Family: Cyclone
           Device Name: 5CGXFC9E6F35I7.
           
@@ -166,7 +167,7 @@ Step 2.4: Device Settings. For this implementation we used
  You could also just start typing the full part number in the Name filter box until you find it.
  Click NEXT. EDA tool setting doesn't matter for this lab so we can skip it.
 
-Step 2.5: Summary
+**Step 2.5:** Summary
           Nothing to select - it should look like this. 
           
 <img src ="https://user-images.githubusercontent.com/82434808/155186180-2694616d-56e9-42cd-b29b-660fb6488414.png" width="600" height="450">
