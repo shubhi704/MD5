@@ -174,13 +174,15 @@ Download Link - https://cdrdv2.intel.com/v1/dl/downloadStart/684220/684241?filen
 
 Click FINISH
  
- 
+ **Step 3:** Select FILE --> Open. Browse your source file (.v) and CLick Open.
 <img src ="https://user-images.githubusercontent.com/82434808/155186366-3fc2f182-ca7e-48b1-baea-c746b61d3f75.png" width="600" height="450">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155186522-50998d86-4480-4b42-b361-cecb77074aca.png" width="700" height="400">
+**Step 4:** Write/Add .SDC file in your project folder. You can download .SDC file from the directory.
 
+**Step 5:** Window should look like this. Now click on start arrow at the bottom left corner **|> Compile** for full compilation. 
 <img src ="https://user-images.githubusercontent.com/82434808/155186633-9c78b942-e52a-46c9-9c84-e40aac2ece5e.png" width="700" height="400">
 
+When the full compilation is done, you can now do power and timing analysis of your design.
 
 # .SDC file
     
