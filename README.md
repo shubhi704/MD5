@@ -249,4 +249,13 @@ When your design is compiled successfully then you can proceed towards its timin
 ![image](https://user-images.githubusercontent.com/82434808/155191709-9337e193-b78d-49bd-aa49-fa022ed40e50.png)
 
 
+# Results
+
+1. Verilog Code Simulation
+
+
+2. Power Result on FPGA
+
+
+3. Worst Delay on FPGA
 
