@@ -255,14 +255,14 @@ When your design is compiled successfully then you can proceed towards its timin
 
 
 2. Power Result on FPGA
-<img src ="https://user-images.githubusercontent.com/82434808/155595089-2c76285a-e8b1-42b2-be1c-e71c220222ea.png" width="550" height="350">
+<img src ="https://user-images.githubusercontent.com/82434808/155595089-2c76285a-e8b1-42b2-be1c-e71c220222ea.png" width="600" height="350">
 
-<img src ="https://user-images.githubusercontent.com/82434808/155595109-41abeb0c-7346-4863-8fba-1c2842877deb.png" width="700" height="300">
+<img src ="https://user-images.githubusercontent.com/82434808/155595109-41abeb0c-7346-4863-8fba-1c2842877deb.png" width="900" height="300">
 
 
 3. Worst Delay on FPGA
 
-<img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="600" height="350">
+<img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="500" height="450">
 
 <img src ="https://user-images.githubusercontent.com/82434808/155595513-4f38d7ec-7bf5-4b4e-83b0-3fb648406f75.png" width="600" height="350">
 
