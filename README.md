@@ -214,16 +214,26 @@ Using the create_clock command we make the clock period 600ns which will trigger
     
  Using set_inputdelay/set_output_delay we assigned the input/output delay (interconnect delay).
 
-# Power Result
+# Power Analysis
 
+When your design is compiled successfully then you can proceed towards its power analysis. There are the following steps that need to be followed to do power analysis in Quartus Prime software. I did vector-based power analysis in which we provide vectors in the form of an activity file (.VCD file). These are the following steps -
+
+**Step 1:** Select PROCESSING --> Power Analyzer Tool. As you can see in the below image.
 ![image](https://user-images.githubusercontent.com/82434808/155191254-08931c1b-534a-4a59-b901-bb4a45f80aef.png)
+
+**Step 2: ** In this step, you need to add an activity file. CLICK "Add Power Input File"
 ![image](https://user-images.githubusercontent.com/82434808/155191389-687a0d8d-a428-45f8-8388-0a72d4c66a6f.png)
+
+Step 2.2: CLICK "ADD". Browse your activity file and click on the "OK" option. Your file will be shown as you can see in the below picture.
 ![image](https://user-images.githubusercontent.com/82434808/155191498-ef351dc5-4802-4575-bf62-7962fe378137.png)
+
+Step 3: At the bottom of the Power Analyzer Tool, CLICK on the START option. The tool will start calculating the power of your design based on the vectors provided by you. You'll notice more will be the vector more you'll get power (or switching power).
 ![image](https://user-images.githubusercontent.com/82434808/155191601-960548c1-d97c-47b6-9dc7-5b5d0e10c218.png)
+
+# Timing Analysis
+
+When your design is compiled successfully then you can proceed towards its timing analysis. There are the following steps that need to be followed to do timing analysis in Quartus Prime software.
 ![image](https://user-images.githubusercontent.com/82434808/155191709-9337e193-b78d-49bd-aa49-fa022ed40e50.png)
 
-
-
-# Timing Report
 
 
