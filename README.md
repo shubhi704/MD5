@@ -252,6 +252,9 @@ When your design is compiled successfully then you can proceed towards its timin
 # Results
 
 1. Verilog Code Simulation
+![image](https://user-images.githubusercontent.com/82434808/155838631-3e157429-6380-40d5-9673-4df236564618.png)
+![image](https://user-images.githubusercontent.com/82434808/155838639-5cfdcecb-7468-4ae3-b266-f96eef1405f3.png)
+![image](https://user-images.githubusercontent.com/82434808/155838644-3621f228-dd21-49f7-90e9-827c0dbad6b2.png)
 
 
 2. Power Result on FPGA
