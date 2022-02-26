@@ -254,26 +254,26 @@ When your design is compiled successfully then you can proceed towards its timin
 **1. Verilog Code Simulation**
      Below are the snippet of simulation result for various strings -
 
-    <img src ="https://user-images.githubusercontent.com/82434808/155838631-3e157429-6380-40d5-9673-4df236564618.png" width="500" height="75">
+   <img src ="https://user-images.githubusercontent.com/82434808/155838631-3e157429-6380-40d5-9673-4df236564618.png" width="500" height="75">
 
 
-    <img src ="https://user-images.githubusercontent.com/82434808/155838639-5cfdcecb-7468-4ae3-b266-f96eef1405f3.png" width="500" height="40">
+   <img src ="https://user-images.githubusercontent.com/82434808/155838639-5cfdcecb-7468-4ae3-b266-f96eef1405f3.png" width="500" height="40">
 
 
-    <img src ="https://user-images.githubusercontent.com/82434808/155838644-3621f228-dd21-49f7-90e9-827c0dbad6b2.png" width="500" height="40">
+   <img src ="https://user-images.githubusercontent.com/82434808/155838644-3621f228-dd21-49f7-90e9-827c0dbad6b2.png" width="500" height="40">
 
 
 **2. Power Result on FPGA**
       
-      <img src ="https://user-images.githubusercontent.com/82434808/155595089-2c76285a-e8b1-42b2-be1c-e71c220222ea.png" width="600" height="350">
+   <img src ="https://user-images.githubusercontent.com/82434808/155595089-2c76285a-e8b1-42b2-be1c-e71c220222ea.png" width="600" height="350">
 
-     <img src ="https://user-images.githubusercontent.com/82434808/155595109-41abeb0c-7346-4863-8fba-1c2842877deb.png" width="900" height="300">
+   <img src ="https://user-images.githubusercontent.com/82434808/155595109-41abeb0c-7346-4863-8fba-1c2842877deb.png" width="900" height="300">
 
 
 **3. Worst Delay on FPGA**
 
-    <img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="500" height="450">
+   <img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="500" height="450">
 
-    <img src ="https://user-images.githubusercontent.com/82434808/155595513-4f38d7ec-7bf5-4b4e-83b0-3fb648406f75.png" width="600" height="350">
+   <img src ="https://user-images.githubusercontent.com/82434808/155595513-4f38d7ec-7bf5-4b4e-83b0-3fb648406f75.png" width="600" height="350">
 
 
