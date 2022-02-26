@@ -248,6 +248,8 @@ When your design is compiled successfully then you can proceed towards its timin
 
 ![image](https://user-images.githubusercontent.com/82434808/155191709-9337e193-b78d-49bd-aa49-fa022ed40e50.png)
 
+![image](https://user-images.githubusercontent.com/82434808/155842829-64ea278c-e788-435c-a257-20ed56042e0b.png)
+
 
 # Results
 
