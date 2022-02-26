@@ -280,7 +280,10 @@ When your design is compiled successfully then you can proceed towards its timin
    
    <img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="600" height="600">
 
+
   From the timing report, the worst-case delay is nearly 600ns which is fairly good. We can do some optimization by replacing a high delay cell with a small delay cell of the FPGA board. 
+  
+  
    <img src ="https://user-images.githubusercontent.com/82434808/155595513-4f38d7ec-7bf5-4b4e-83b0-3fb648406f75.png" width="650" height="350">
 
 
