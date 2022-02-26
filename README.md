@@ -272,7 +272,7 @@ When your design is compiled successfully then you can proceed towards its timin
 
 **3. Worst Delay on FPGA**
 
-   <img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="600" height="450">
+   <img src ="https://user-images.githubusercontent.com/82434808/155595186-c678c36a-25b2-4d5b-a569-61e224efc3a2.png" width="600" height="600">
 
    <img src ="https://user-images.githubusercontent.com/82434808/155595513-4f38d7ec-7bf5-4b4e-83b0-3fb648406f75.png" width="650" height="350">
 
