@@ -8,7 +8,8 @@
 **The Algorithm**
 
 We implemented the MD5, a one-way cryptographic hash function, using Verilog (Hardware Description Language). We tested our implementation through existing code for a few input strings. But this implementation is not fully verified using advanced verification techniques/methodology so there can be some corner cases for which this implementation may fail. As this is the hardware implementation so we fixed the input pins as 448 bits long which we call a message, and MD5 will generate 128 bits output which we call digest. For understanding the MD5 algorithm I found that a relatively complete description is given in Wiki.
-For understanding the MD5 algorithm I found that a relatively complete description is given in Wiki.
+    
+    Wiki Link - https://en.wikipedia.org/wiki/MD5
 
 
 **Step 1: Padding** 
