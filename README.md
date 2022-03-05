@@ -332,10 +332,10 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
   
   Type 'cmd' on the location bar and press enter to open the command prompt relevant to this path as shown below
   
-  ![cmd window](https://user-images.githubusercontent.com/59177041/156890310-cecac3b9-84b6-4ad5-bda0-f06508222ac7.JPG)
+   ![cmd](https://user-images.githubusercontent.com/59177041/156890337-dd8f22a4-6f22-4809-a9cf-5ec9571068ed.JPG)
 
   
- ![cmd](https://user-images.githubusercontent.com/59177041/156890337-dd8f22a4-6f22-4809-a9cf-5ec9571068ed.JPG)
+![cmd window](https://user-images.githubusercontent.com/59177041/156890310-cecac3b9-84b6-4ad5-bda0-f06508222ac7.JPG)
 
 
   
