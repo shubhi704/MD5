@@ -313,13 +313,13 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
  
 # Power Analysis
   
-  For power analysis of the c++ implementation Intel(R) Power Gadget 3.6 is used. This tool is a software-based power usage monitoring tool enabled for Intel® Core™ processors (from 2nd Generation up to 10th Generation Intel® Core™ processors). 
+  For power analysis of the c++ implementation Intel(R) Power Gadget 3.6 is used. This tool is a software-based power usage monitoring tool enabled for Intel®       Core™ processors (from 2nd Generation up to 10th Generation Intel® Core™ processors). 
   
   The power analysis was done for single string input run in a loop for 100 times. 
   
   **Step 1:** Install Intel(R) Power Gadget 3.6 on the system 
   
-  Link for Intel(R) Power Gadget 3.6 installation- https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html
+    Link for Intel(R) Power Gadget 3.6 installation- https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html
   
   **Step 2:** Power can be calculated by 2 methods- 1. Using command prompt
                                                     2. Using log 
@@ -330,7 +330,7 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
   
      In our case the path was as follows- C:\Program Files\Intel\Power Gadget 3.6
   
-  Type 'cmd' on the location bar and press enter to open the command prompt relevant to this path as shown below
+    Type 'cmd' on the location bar and press enter to open the command prompt relevant to this path as shown below
   
   ![cmd](https://user-images.githubusercontent.com/59177041/156890337-dd8f22a4-6f22-4809-a9cf-5ec9571068ed.JPG)
 
@@ -344,7 +344,7 @@ Step 2.2- To calculate power of the code run the following command in the comman
   
  We did 100 iterations and noted down the values of the CPU Frequency(Hertz) and the IA power(W), which is the average power over all the cores of the CPU.
    
-Step 2.3- In order to achieve closest value of power we also calculated power consumed by the CPU when no code was being run. To calculate this base power the following command was run in the command prompt-
+Step 2.3- In order to achieve closest value of power we also calculated power consumed by the CPU when no code was being run. To calculate this base power the               following command was run in the command prompt-
     
       PowerLog3.0.exe -file <logfile>  -verbose -cmd ./
       
@@ -359,17 +359,19 @@ Go to Task Manager --> Performance
  This gives the CPU performance, number of cores and the core utilization as shown below
  
  ![tm](https://user-images.githubusercontent.com/59177041/156891354-bfec448f-7399-47af-9bfb-beb0fed7d993.JPG)
+ 
+  In the presence of 'Hyperthreading' one CPU core behaves like two CPU cores due to which we get 8 logical processors for a 4 core CPU. The utilization of cores     can be determined by the activity in these blocks. Heavy applications like Adobe Illustrator etc. tend to show significant activity in one or two cores by high     peaks in the graphs.
 
 Step 2.5- Calculate power for one iteration 
 
-power per iteration = [(avg. power for c++ code - base power of CPU)* number of cores] / number of iterations in the loop (W/iteration)
+      Power per iteration = [(avg. power for c++ code - base power of CPU)* number of cores] / number of iterations in the loop (W/iteration)
 
 
 # Results
 
 **1. Timing result using Google Benchmark**
   
-   Run time = 2564ns = 2.564us
+       Run time = 2564ns = 2.564us
 
  ![bm](https://user-images.githubusercontent.com/59177041/156891932-027ad8c0-b9a7-48f0-b9ed-f65642c3f7e5.JPG)
  
