@@ -348,4 +348,15 @@ Step 2.2- In order to achieve closest value of power we also calculated power co
     
       PowerLog3.0.exe -file <logfile>  -verbose -cmd ./
       
- Step 2.3- 
+This power is further subtracted from the power obtained for the c++ code so that closest consumption of power by the code can be obtained
+
+Step 2.3- Calculation of cores of the CPU 
+
+If you don't know the number of cores in your CPU then follow the given path 
+
+Go to Task Manager --> Performance 
+
+ This gives the CPU performance, number of cores and the core utilization as shown below
+ 
+ ![tm](https://user-images.githubusercontent.com/59177041/156891354-bfec448f-7399-47af-9bfb-beb0fed7d993.JPG)
+
