@@ -340,7 +340,7 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
 
 Step 2.1- To calculate power of the code run the following command in the command prompt-
 
-PowerLog3.0.exe -file <logfile>  -verbose -cmd <path of c++ code>
+     PowerLog3.0.exe -file <logfile>  -verbose -cmd <path of c++ code>
   
  We did 100 iterations and noted down the values of the CPU Frequency(Hertz) and the IA power(W), which is the average power over all the cores of the CPU.
    
