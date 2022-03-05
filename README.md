@@ -321,4 +321,18 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
   
   Link for Intel(R) Power Gadget 3.6 installation- https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html
   
+  **Step 2:** Power can be calculated by 2 methods- 1. Using command prompt
+                                                    2. Using log 
+  
+  We used the command prompt method to calculate the power 
+ 
+  Step 2.1- Open the path to the source file destination of Intel(R) Power Gadget 3.6 on your computer 
+  
+  In our case the path was as follows- C:\Program Files\Intel\Power Gadget 3.6
+  
+  Type 'cmd' on the location bar and press enter to open the command prompt relevant to this path as shown below
+  
+  ![image](https://user-images.githubusercontent.com/59177041/156890241-9fc99548-2001-4e07-8cf7-10c76370d2ff.png)
+
+  
   
