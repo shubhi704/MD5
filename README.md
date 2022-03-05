@@ -328,15 +328,19 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
  
   Step 2.1- Open the path to the source file destination of Intel(R) Power Gadget 3.6 on your computer 
   
-  In our case the path was as follows- C:\Program Files\Intel\Power Gadget 3.6
+     In our case the path was as follows- C:\Program Files\Intel\Power Gadget 3.6
   
   Type 'cmd' on the location bar and press enter to open the command prompt relevant to this path as shown below
   
-   ![cmd](https://user-images.githubusercontent.com/59177041/156890337-dd8f22a4-6f22-4809-a9cf-5ec9571068ed.JPG)
+  ![cmd](https://user-images.githubusercontent.com/59177041/156890337-dd8f22a4-6f22-4809-a9cf-5ec9571068ed.JPG)
 
   
 ![cmd window](https://user-images.githubusercontent.com/59177041/156890310-cecac3b9-84b6-4ad5-bda0-f06508222ac7.JPG)
 
 
+Step 2.1- To calculate power of the code run the following command in the command prompt-
+
+PowerLog3.0.exe -file <logfile>  -verbose -cmd <path of c++ code>
   
-  
+ We did 100 iterations and noted down the values of the CPU Frequency(Hertz) and the IA power(W), which is the average power over all the cores of the CPU.
+   
