@@ -344,3 +344,8 @@ Step 2.1- To calculate power of the code run the following command in the comman
   
  We did 100 iterations and noted down the values of the CPU Frequency(Hertz) and the IA power(W), which is the average power over all the cores of the CPU.
    
+Step 2.2- In order to achieve closest value of power we also calculated power consumed by the CPU when no code was being run. To calculate this base power the following command was run in the command prompt-
+    
+      PowerLog3.0.exe -file <logfile>  -verbose -cmd ./
+      
+ Step 2.3- 
