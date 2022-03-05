@@ -308,8 +308,17 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
   
   To conduct the timing analysis on the CPU, Google Benchmark is used. A wrapper function was created and the code was timed for input of a single string. 
    Inorder to use Google Benchmark certain installations and testings need to be done on the computer after which the computer recognizes the benchmark library.
+     
      Link for installation steps and implementation of Google Benchmark- https://github.com/google/benchmark
  
 # Power Analysis
   
   For power analysis of the c++ implementation Intel(R) Power Gadget 3.6 is used. This tool is a software-based power usage monitoring tool enabled for Intel® Core™ processors (from 2nd Generation up to 10th Generation Intel® Core™ processors). 
+  
+  The power analysis was done for single string input run in a loop for 100 times. 
+  
+  **Step 1:** Install Intel(R) Power Gadget 3.6 on the system 
+  
+  Link for Intel(R) Power Gadget 3.6 installation- https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html
+  
+  
