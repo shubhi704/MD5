@@ -338,19 +338,19 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
 ![cmd window](https://user-images.githubusercontent.com/59177041/156890310-cecac3b9-84b6-4ad5-bda0-f06508222ac7.JPG)
 
 
-Step 2.1- To calculate power of the code run the following command in the command prompt-
+Step 2.2- To calculate power of the code run the following command in the command prompt-
 
      PowerLog3.0.exe -file <logfile>  -verbose -cmd <path of c++ code>
   
  We did 100 iterations and noted down the values of the CPU Frequency(Hertz) and the IA power(W), which is the average power over all the cores of the CPU.
    
-Step 2.2- In order to achieve closest value of power we also calculated power consumed by the CPU when no code was being run. To calculate this base power the following command was run in the command prompt-
+Step 2.3- In order to achieve closest value of power we also calculated power consumed by the CPU when no code was being run. To calculate this base power the following command was run in the command prompt-
     
       PowerLog3.0.exe -file <logfile>  -verbose -cmd ./
       
 This power is further subtracted from the power obtained for the c++ code so that closest consumption of power by the code can be obtained
 
-Step 2.3- Calculation of cores of the CPU 
+Step 2.4- Calculation of cores of the CPU 
 
 If you don't know the number of cores in your CPU then follow the given path 
 
@@ -360,3 +360,23 @@ Go to Task Manager --> Performance
  
  ![tm](https://user-images.githubusercontent.com/59177041/156891354-bfec448f-7399-47af-9bfb-beb0fed7d993.JPG)
 
+Step 2.5- Calculate power for one iteration 
+
+power per iteration = [(avg. power for c++ code - base power of CPU)* number of cores] / number of iterations in the loop (W/iteration)
+
+
+# Results
+
+**1. Timing result using Google Benchmark**
+
+ ![bm](https://user-images.githubusercontent.com/59177041/156891932-027ad8c0-b9a7-48f0-b9ed-f65642c3f7e5.JPG)
+ 
+ 
+**2. Power Result on CPU**
+
+  2.1 Base power of CPU 
+      
+      ![empty power](https://user-images.githubusercontent.com/59177041/156891987-b6956bb5-e326-4adb-8b63-7c7d4be56ab0.JPG)
+
+      IA = 0.94W
+      CPU Frequency = 3400Hz
