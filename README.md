@@ -368,15 +368,20 @@ power per iteration = [(avg. power for c++ code - base power of CPU)* number of 
 # Results
 
 **1. Timing result using Google Benchmark**
+  
+   Run time = 2564ns = 2.564us
 
  ![bm](https://user-images.githubusercontent.com/59177041/156891932-027ad8c0-b9a7-48f0-b9ed-f65642c3f7e5.JPG)
  
  
 **2. Power Result on CPU**
 
-  2.1 Base power of CPU 
+  2.1 Base power of CPU
+  
+   IA = 0.94W
+   CPU Frequency = 3400Hz
+
       
   ![empty power](https://user-images.githubusercontent.com/59177041/156891987-b6956bb5-e326-4adb-8b63-7c7d4be56ab0.JPG)
 
-     IA = 0.94W
-     CPU Frequency = 3400Hz
+    
