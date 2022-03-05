@@ -386,3 +386,12 @@ Step 2.5- Calculate power for one iteration
   ![empty power](https://user-images.githubusercontent.com/59177041/156891987-b6956bb5-e326-4adb-8b63-7c7d4be56ab0.JPG)
 
     
+  2.2 Average Power consumption for 100 iterations
+       
+       IA Power = 7.05W    CPU Frequency = 3400Hz
+       
+  2.3 Power Consumption for one iteration
+  
+     Power per iteration = [(7.05 - 0.94)*4]/100 W/iteration
+ 
+     Hence, Power per iteration = 2.444 W/iteration
