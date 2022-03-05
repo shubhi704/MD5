@@ -302,7 +302,7 @@ When your design is compiled successfully then you can proceed towards its timin
 
  For the c++ code we used the implementation by Jackie Tseng and performed the timing and power analysis on that code
 
-Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
+  Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
  
 # Timing Analysis
   
@@ -340,13 +340,13 @@ Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
 
 Step 2.2- To calculate power of the code run the following command in the command prompt-
 
-     PowerLog3.0.exe -file <logfile>  -verbose -cmd <path of c++ code>
+     PowerLog3.0.exe -file <desired path for the log file>  -verbose -cmd <path of c++ code>
   
  We did 100 iterations and noted down the values of the CPU Frequency(Hertz) and the IA power(W), which is the average power over all the cores of the CPU.
    
 Step 2.3- In order to achieve closest value of power we also calculated power consumed by the CPU when no code was being run. To calculate this base power the               following command was run in the command prompt-
     
-      PowerLog3.0.exe -file <logfile>  -verbose -cmd ./
+      PowerLog3.0.exe -file <desired path for the log file>  -verbose -cmd ./
       
 This power is further subtracted from the power obtained for the c++ code so that closest consumption of power by the code can be obtained
 
