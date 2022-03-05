@@ -301,12 +301,13 @@ When your design is compiled successfully then you can proceed towards its timin
 # Analysis using C++ Code
 
  For the c++ code we used the implementation by Jackie Tseng and performed the timing and power analysis on that code
-link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
+
+Link to Jackie Tseng's MD5 implementation- https://github.com/JackieTseng/md5
  
 # Timing Analysis
   
   To conduct the timing analysis on the CPU, Google Benchmark is used. A wrapper function was created and the code was timed for input of a single string. 
-  Inorder to use Google Benchmark certain installations and testings need to be done on the computer after which the computer recognizes the benchmark library.
+   Inorder to use Google Benchmark certain installations and testings need to be done on the computer after which the computer recognizes the benchmark library.
      Link for installation steps and implementation of Google Benchmark- https://github.com/google/benchmark
  
 # Power Analysis
