@@ -378,7 +378,7 @@ power per iteration = [(avg. power for c++ code - base power of CPU)* number of 
 
   2.1 Base power of CPU
   
-     IA = 0.94W    CPU Frequency = 3400Hz
+     IA Power = 0.94W    CPU Frequency = 3400Hz
 
       
   ![empty power](https://user-images.githubusercontent.com/59177041/156891987-b6956bb5-e326-4adb-8b63-7c7d4be56ab0.JPG)
