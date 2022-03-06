@@ -244,18 +244,29 @@ Step 3: At the bottom of the Power Analyzer Tool, CLICK on the START option. The
 
 When your design is compiled successfully then you can proceed towards its timing analysis. There are the following steps that need to be followed to do timing analysis in Quartus Prime software.
 
-
+**Step 1:** Select TOOLS --> Timing Analyzer. Timing Analyzer will open.
 ![image](https://user-images.githubusercontent.com/82434808/155191709-9337e193-b78d-49bd-aa49-fa022ed40e50.png)
 
+
+**Step 2:** In the Tasks run 
+            a. Create Timing Netlist.
+            b. Read SDC File or type the TCL command one by one
+            c. Update Timing Netlist
+       
+![image](https://user-images.githubusercontent.com/82434808/155842829-64ea278c-e788-435c-a257-20ed56042e0b.png)
+
+
+**Step 3:** Select REPORTS --> Custom Reports --> Reports Timing Closure Recommendations
+     
 ![image](https://user-images.githubusercontent.com/82434808/156552495-870b3e55-4069-4d70-96d7-478b778b3acf.png)
 
-
+Or You can type the TCL command directly for report timing.
 ![image](https://user-images.githubusercontent.com/82434808/156552855-5f7c947f-2b36-49ee-89ad-f6ddc1205fe6.png)
 
-
+**Step 4:** Timing Report window will be opened where you'll find Data Arrival Time and Data Required time in decending order. Below image is showing worst case scenario.
 ![image](https://user-images.githubusercontent.com/82434808/156552611-d1f8fa03-966f-4736-bea0-3a673f2d6820.png)
 
-![image](https://user-images.githubusercontent.com/82434808/155842829-64ea278c-e788-435c-a257-20ed56042e0b.png)
+
 
 
 # Results
