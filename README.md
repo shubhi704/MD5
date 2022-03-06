@@ -248,7 +248,8 @@ When your design is compiled successfully then you can proceed towards its timin
 ![image](https://user-images.githubusercontent.com/82434808/155191709-9337e193-b78d-49bd-aa49-fa022ed40e50.png)
 
 
-**Step 2:** In the Tasks run 
+**Step 2:** In the Tasks run following
+
             a. Create Timing Netlist.
             b. Read SDC File or type the TCL command one by one
             c. Update Timing Netlist
@@ -261,9 +262,11 @@ When your design is compiled successfully then you can proceed towards its timin
 ![image](https://user-images.githubusercontent.com/82434808/156552495-870b3e55-4069-4d70-96d7-478b778b3acf.png)
 
 Or You can type the TCL command directly for report timing.
+
 ![image](https://user-images.githubusercontent.com/82434808/156552855-5f7c947f-2b36-49ee-89ad-f6ddc1205fe6.png)
 
-**Step 4:** Timing Report window will be opened where you'll find Data Arrival Time and Data Required time in decending order. Below image is showing worst case scenario.
+**Step 4:** Timing Report window will be opened where you'll find the data arrival time and data required time in descending order. The below image is showing the worst-case scenario.
+
 ![image](https://user-images.githubusercontent.com/82434808/156552611-d1f8fa03-966f-4736-bea0-3a673f2d6820.png)
 
 
