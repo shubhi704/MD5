@@ -385,7 +385,8 @@ Step 2.5- Calculate power for one iteration
   
        Run time = 2564ns = 2.564us
 
- ![bm](https://user-images.githubusercontent.com/59177041/156891932-027ad8c0-b9a7-48f0-b9ed-f65642c3f7e5.JPG)
+![bm final](https://user-images.githubusercontent.com/59177041/158046600-62edf610-efdb-417b-b9b5-861bc5df4389.jpeg)
+
  
  
 **2. Power Result on CPU**
