@@ -383,7 +383,7 @@ Step 2.5- Calculate power for one iteration
 
 **1. Timing result using Google Benchmark**
   
-       Run time = 2564ns = 2.564us
+       Run time = 1123ns = 1.123us
 
 ![bm final](https://user-images.githubusercontent.com/59177041/158046600-62edf610-efdb-417b-b9b5-861bc5df4389.jpeg)
 
