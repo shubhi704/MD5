@@ -1,7 +1,7 @@
 # MD5
 **Introduction**
 
-The MD5 (message-digest algorithm) hashing algorithm is a one-way cryptographic function that accepts a message of any length as input and returns as output a fixed-length digest value to be used for authenticating the original message. For this project we have implemented MD5 in Verilog and synthesized it using Intel Quartus Prime. Also a pre-existing implementation of MD5 in C++ language is taken and timing and power comparisions are done for these two types of implementations. Basically, this project gives a comparitive view of the timing and power consumption of MD5 algorithm on CPU and FPGA. This comparision in turn indicates towards the efficiency of these two platforms for this algorithm.
+The MD5 (message-digest algorithm) hashing algorithm is a one-way cryptographic function that accepts a message of any length as input and returns as output a fixed-length digest value to be used for authenticating the original message. MD5 is required in order placement in NSE trading protocol. This MD5 calculation is major bottleneck for high frequency traders, therefore acceleration of this MD5 calculation is of significant interest to Indian HFT community. For this project we have implemented MD5 in Verilog and synthesized it using Intel Quartus Prime. Also a pre-existing implementation of MD5 in C++ language is taken and timing and power comparisions are done for these two types of implementations. Basically, this project gives a comparitive view of the timing and power consumption of MD5 algorithm on CPU and FPGA. This comparision in turn indicates towards the efficiency of these two platforms for this algorithm.
 
 **The Algorithm**
 
