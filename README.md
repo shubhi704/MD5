@@ -408,3 +408,8 @@ Step 2.5- Calculate power for one iteration
      Power per iteration = [(7.05 - 0.94)*4]/100 W/iteration
  
      Hence, Power per iteration = 2.444 W/iteration
+     
+     
+ **Conclusion**
+   
+   As per the operations conducted and observations gathered above it is hence concluded that FPGA is a better platform than the CPU to implement the MD5 algorithm both in terms of time taken and power consumed. However, it is a point to be considered that these values of time and power obtained on FPGA can be improvised if better versions are used to implement the algorithm. 
